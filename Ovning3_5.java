@@ -1,5 +1,8 @@
 import javax.swing.*;
 /*
+Program som räknar ut momsen på en vara
+Alexander Blom
+2017/10/02
 */
 
 public class Ovning3_5{
@@ -15,7 +18,6 @@ public class Ovning3_5{
 		momsSats = Integer.parseInt(moms);
 
 		moms2 = momsSats / 100.0;
-
 		endastMoms = pris2 * moms2;
 		prisUtanMoms = pris2 - endastMoms;
 
